@@ -39,6 +39,7 @@ public class MainFrame extends JFrame{
         panel.add(new ALabel("Apel (Rp. 15.000/kg)"), gbc);
         gbc.gridx = 1;
         apelField = new JTextField(15);
+        apelField.setText("0");
         panel.add(apelField, gbc);
         
         gbc.gridx = 0;
@@ -46,7 +47,10 @@ public class MainFrame extends JFrame{
         panel.add(new ALabel("Jeruk (Rp. 12.000/kg)"), gbc);
         gbc.gridx = 1;
         jerukField = new JTextField(15);
+        jerukField.setText("0");
+
         panel.add(jerukField, gbc);
+        
 
         
         gbc.gridx = 0;
@@ -54,6 +58,7 @@ public class MainFrame extends JFrame{
         panel.add(new ALabel("Mangga (Rp. 20.000/kg)"), gbc);
         gbc.gridx = 1;
         manggaField = new JTextField(15);
+        manggaField.setText("0");
         panel.add(manggaField, gbc);
         
         gbc.gridx = 0;
